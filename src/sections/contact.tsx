@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <footer className="bg-[#111111] text-white px-4 py-10 sm:px-10 md:px-20 ">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-            <h2 className="text-3xl font-semibold bg-gradient-to-r from-[#DD5789] to-[#9845E8] md:bg-[length:10%] sm:bg-[length:70%] bg-clip-text text-transparent">
+            <h2 className="text-3xl font-semibold bg-gradient-to-r from-[#DD5789] to-[#9845E8] md:bg-[length:100%] sm:bg-[length:70%] bg-clip-text text-transparent">
             CONTACT
             </h2>
 
