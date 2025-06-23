@@ -3,6 +3,7 @@ import Contact from './sections/contact';
 import Hero from './sections/hero';
 import Experience from './sections/experience';
 import FeaturedProjects from './sections/projects';
+import Education from './sections/education';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Hero />
         <Experience/>
+        <Education/>
         <FeaturedProjects/>
         <Contact/>
       </>

@@ -33,7 +33,7 @@ const FeaturedProjects = () => {
 
   return (
     <section className="bg-[#111111] text-white px-4 py-10 sm:px-10 md:px-20">
-      <h2 className="text-3xl font-semibold mb-6 bg-gradient-to-r from-[#33D2FF] to-[#9845E8] md:bg-[length:10%] sm:bg-[length:70%] bg-clip-text text-transparent">PROJECTS</h2>
+      <h2 className="text-3xl font-semibold mb-6 bg-gradient-to-r from-[#DD5789] to-[#33D2FF] md:bg-[length:13%] sm:bg-[length:70%] bg-clip-text text-transparent">PROJECTS</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
