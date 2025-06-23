@@ -22,7 +22,7 @@ const educationData = [
     institution: "Takshasila Public School",
     country: "Hyderabad - India",
     degree: "Secondary Education",
-    cgpa: "Percentage: 87%",
+    cgpa: "Percentage: 86.7%",
     duration: "2010 - 2020",
   },
 ];
@@ -54,7 +54,7 @@ export default function Education() {
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start pb-6 space-y-2 sm:space-y-0">
         <div className="w-full">
           <div className="block sm:hidden space-y-1">
-            <p className="text-lg text-white font-semibold">
+            <p className="text-xl text-white font-semibold">
               {active.degree} | {active.duration}
             </p>
             <p className="text-[#DD5789] text-base">
