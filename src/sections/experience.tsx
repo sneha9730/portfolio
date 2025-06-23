@@ -7,7 +7,7 @@ const experiences = [
     duration: "Jan 2024 - Present",
     location: "CBIT - Hyderabad",
     link: "https://cbitosc.github.io/",
-    tasks: "I actively contributed by organizing events like hackathons, bootcamps, and workshops that introduced students to a variety of technologies in a practical, hands-on way. These events not only helped participants build useful skills but also encouraged a culture of open source, where collaboration and sharing were at the core. Through these efforts, I helped create a space where students could learn, grow, and stay inspired by working together on real-world tech challenges.Organize a diverse range of events such as hackathons, bootcamps, and workshops, aimed at educating students about various technologies while actively fostering a culture of open source",
+    tasks: "I have actively contributed to COSC by organizing events like hackathons, bootcamps, and workshops that introduced students to a variety of open-source technologies. My role primarily involved event planning, handling logistics, and coordinating with the team. As a developer, I helped build platforms to host these events and ensure a smooth experience. I also served as a newspaper editor, contributed to post designs, and played a key role in publicizing the events.",
   },
 ];
 
