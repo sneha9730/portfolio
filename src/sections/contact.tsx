@@ -1,7 +1,4 @@
 import { Mail, Linkedin } from 'lucide-react';
-import kaggle from '../assets/kaggle.svg';
-import leetcode from'../assets/leetcode.svg';
-
 
 const Contact = () => {
   return (
@@ -13,7 +10,6 @@ const Contact = () => {
           </h2>
 
           <div className="flex flex-wrap gap-3 justify-center lg:justify-end items-center">
-            {/* Email */}
             <a
               href="mailto:your@email.com"
               className="flex items-center gap-2 border border-[#33D2FF] hover:border-2 px-4 py-2 rounded transition-all duration-200"
@@ -22,7 +18,6 @@ const Contact = () => {
               <span className="font-medium hidden sm:block">Send an email</span>
             </a>
 
-            {/* LinkedIn */}
             <a
               href="https://linkedin.com"
               target="_blank"
@@ -33,7 +28,6 @@ const Contact = () => {
               <span className="font-medium hidden sm:block">LinkedIn</span>
             </a>
 
-            {/* GitHub */}
             <a
               href="https://github.com"
               target="_blank"
@@ -46,9 +40,8 @@ const Contact = () => {
               <span className="font-medium hidden sm:block">Github</span>
             </a>
 
-            {/* Leetcode */}
             <a
-              href="https://github.com"
+              href="https://leetcode.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 border border-[#33D2FF] hover:border-2 px-4 py-2 rounded transition-all duration-200"
@@ -59,7 +52,6 @@ const Contact = () => {
               <span className="font-medium hidden sm:block">Github</span>
             </a>
 
-            {/* Kaggle */}
             <a
               href="https://kaggle.com"
               target="_blank"
