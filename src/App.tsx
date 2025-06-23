@@ -8,16 +8,14 @@ import Skills from './sections/skills';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <>
-        <Navbar />
-        <Hero />
-        <Experience/>
-        <Education/>
-        <Skills />
-        <FeaturedProjects/>
-        <Contact/>
-      </>
+    <div className="min-h-screen flex flex-col scroll-smooth">
+      <Navbar />
+      <div id="hero"><Hero /></div>
+      <div id="skills"><Skills /></div>
+      <div id="projects"><FeaturedProjects /></div>
+      <div id="experience"><Experience /></div>
+      <div id="education"><Education /></div>
+      <div id="contact"><Contact /></div>
     </div>
   );
 }

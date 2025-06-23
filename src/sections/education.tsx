@@ -32,7 +32,7 @@ export default function Education() {
   const active = educationData[activeIndex];
 
   return (
-    <section className="bg-[#111111] text-white px-4 py-10 sm:px-10 md:px-20">
+    <section className="bg-[#111111] text-white px-4 py-10 sm:px-10 md:px-20 pt-20">
       <h2 className="text-3xl font-semibold mb-6 bg-gradient-to-r from-[#33D2FF] to-[#9845E8] md:bg-[length:13%] sm:bg-[length:70%] bg-clip-text text-transparent">
         EDUCATION
       </h2>

@@ -2,7 +2,7 @@ import { Mail, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <footer className="w-screen bg-[#111111] text-white py-8 px-6 mt-auto">
+    <footer className="w-screen bg-[#111111] text-white py-8 px-6 mt-auto pt-10">
       <div className="max-w-8xl pl-4 pr-4 sm:pl-12 sm:pr-12">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
           <h2 className="text-3xl font-semibold bg-gradient-to-r from-[#DD5789] to-[#9845E8] bg-clip-text text-transparent">

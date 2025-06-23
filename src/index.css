@@ -28,3 +28,6 @@ body {
     background-color: #ffffff;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
