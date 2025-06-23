@@ -13,7 +13,7 @@ const educationData = [
     title: "Intermediate",
     institution: "Narayana Junior College",
     country: "Hyderabad - India",
-    degree: "Math-Physics-Chemistry Stream",
+    degree: "Higher Secondary Education",
     cgpa: "Percentage: 97.2%",
     duration: "2020 - 2022",
   },
@@ -21,7 +21,7 @@ const educationData = [
     title: "School",
     institution: "Takshasila Public School",
     country: "Hyderabad - India",
-    degree: "High School",
+    degree: "Secondary Education",
     cgpa: "Percentage: 87%",
     duration: "2010 - 2020",
   },
@@ -54,13 +54,13 @@ export default function Education() {
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start pb-6 space-y-2 sm:space-y-0">
         <div className="w-full">
           <div className="block sm:hidden space-y-1">
-            <p className="text-base text-white font-semibold">
+            <p className="text-lg text-white font-semibold">
               {active.degree} | {active.duration}
             </p>
-            <p className="text-[#DD5789] text-sm">
+            <p className="text-[#DD5789] text-base">
               {active.institution} | {active.country}
             </p>
-            <p className="text-sm text-white">{active.cgpa}</p>
+            <p className="text-base text-white">{active.cgpa}</p>
           </div>
 
           <div className="hidden sm:block">
