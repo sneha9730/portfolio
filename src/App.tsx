@@ -1,10 +1,16 @@
 import Navbar from './components/navbar';
+import Contact from './sections/contact';
+import Hero from './sections/hero';
 
 function App() {
   return (
-    <>
-      <Navbar />
-    </>
+    <div className="min-h-screen flex flex-col">
+      <>
+        <Navbar />
+        <Hero />
+        <Contact/>
+      </>
+    </div>
   );
 }
 
