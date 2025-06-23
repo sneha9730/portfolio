@@ -7,7 +7,7 @@ const experiences = [
     duration: "Jan 2024 - Present",
     location: "CBIT - Hyderabad",
     link: "https://cbitosc.github.io/",
-    tasks: "Organize a diverse range of events such as hackathons, bootcamps, and workshops, aimed at educating students about various technologies while actively fostering a culture of open source",
+    tasks: "I actively contributed by organizing events like hackathons, bootcamps, and workshops that introduced students to a variety of technologies in a practical, hands-on way. These events not only helped participants build useful skills but also encouraged a culture of open source, where collaboration and sharing were at the core. Through these efforts, I helped create a space where students could learn, grow, and stay inspired by working together on real-world tech challenges.Organize a diverse range of events such as hackathons, bootcamps, and workshops, aimed at educating students about various technologies while actively fostering a culture of open source",
   },
 ];
 
@@ -20,7 +20,6 @@ const Experience = () => {
       <h2 className="text-3xl font-semibold mb-6 bg-gradient-to-r from-[#9845E8] to-[#DD5789] bg-[length:15%] bg-clip-text text-transparent">EXPERIENCE</h2>
 
       <div className="flex flex-col md:flex-row gap-6">
-        {/* Left Tabs */}
         <div className="flex md:flex-col gap-2 border-l border-gray-600">
           {experiences.map((exp, i) => (
             <button
@@ -36,22 +35,20 @@ const Experience = () => {
             </button>
           ))}
         </div>
-
-        {/* Right Panel */}
         <div className="flex-1">
           <div className="flex justify-between items-start mb-2">
-            <h3 className="text-3xl font-medium">{activeExp.role}</h3>
-            <span className="text-lg text-gray-400">{activeExp.duration}</span>
+            <h3 className="md:text-3xl sm:text-xl font-medium">{activeExp.role}</h3>
+            <span className="md:text-lg sm:text-sm text-gray-400">{activeExp.duration}</span>
           </div>
           <a
             href={activeExp.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg text-[#33D2FF] hover:text-[#9845E8]"
+            className="md:text-lg sm:text-base text-[#33D2FF] hover:text-[#9845E8]"
           >
             {activeExp.location}
           </a>
-          <ul className="mt-4 text-lg text-gray-300 list-disc list-inside space-y-2">
+          <ul className="mt-4 md:text-lg sm:text-base text-gray-300 list-disc list-inside space-y-2">
             {activeExp.tasks}
             
           </ul>
