@@ -17,7 +17,7 @@ const Experience = () => {
 
   return (
     <section className="bg-[#111111] text-white px-4 py-10 sm:px-10 md:px-20">
-      <h2 className="text-3xl font-semibold mb-6 bg-gradient-to-r from-[#9845E8] to-[#DD5789] bg-[length:15%] bg-clip-text text-transparent">EXPERIENCE</h2>
+      <h2 className="text-3xl font-semibold mb-6 bg-gradient-to-r from-[#9845E8] to-[#DD5789] md:bg-[length:15%] sm:bg-[length:70%] bg-clip-text text-transparent">EXPERIENCE</h2>
 
       <div className="flex flex-col md:flex-row gap-6">
         <div className="flex md:flex-col gap-2 border-l border-gray-600">
@@ -37,7 +37,7 @@ const Experience = () => {
         </div>
         <div className="flex-1">
           <div className="flex justify-between items-start mb-2">
-            <h3 className="md:text-3xl sm:text-xl font-medium">{activeExp.role}</h3>
+            <h2 className="text-2xl font-medium">{activeExp.role}</h2>
             <span className="md:text-lg sm:text-sm text-gray-400">{activeExp.duration}</span>
           </div>
           <a
@@ -48,7 +48,7 @@ const Experience = () => {
           >
             {activeExp.location}
           </a>
-          <ul className="mt-4 md:text-lg sm:text-base text-gray-300 list-disc list-inside space-y-2">
+          <ul className="mt-4 md:text-base sm:text-sm text-gray-300 list-disc list-inside space-y-2">
             {activeExp.tasks}
             
           </ul>
