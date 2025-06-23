@@ -8,7 +8,7 @@ const Contact = () => {
             CONTACT
             </h2>
 
-            <div className="flex flex-wrap gap-3 justify-start sm:justify-start lg:justify-end items-center">
+    <div className="flex flex-wrap gap-5 justify-start sm:justify-start lg:justify-end items-center">
         <a
           href="mailto:snehaarumugam10@gmail.com"
           className="flex items-center gap-2 border border-[#33D2FF] hover:border-2 px-4 py-2 rounded transition-all duration-200"
